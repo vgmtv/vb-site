@@ -36,16 +36,29 @@ const DownloadSection = styled.div`
   align-items: center;
 `;
 
+const Intro = styled.div`
+  display: flex;
+  justify-content: center;
+  color: rgb(50, 171, 223);
+  text-align: center;
+  padding: 16px;
+`;
+
 export default ({data}) => {
   const download = url => {
     if (url) {
       window.open(url, '_blank');
     }
   };
+
   return (
     <Container>
       <Head />
       <Header />
+      <Intro>
+        VietBible là chương trình giúp việc học và nghiên cứu Kinh Thánh bằng
+        tiếng Việt cho mọi người không phân biệt tôn giáo, giáo phái.
+      </Intro>
       <Wrapper>
         {data.platforms.edges.map(({node: {name, type, version, urls}}) => (
           <Platform name={name} version={version} key={name}>
