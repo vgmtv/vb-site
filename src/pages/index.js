@@ -6,6 +6,7 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 import Platform from '../components/platform';
 import Button from '../components/button';
+import Intro from '../components/intro';
 import '../css/global.css';
 
 const Container = styled.div`
@@ -23,15 +24,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 650px;;
-`;
-
-const Intro = styled.div`
-  display: flex;
-  justify-content: center;
-  color: rgb(50, 171, 223);
-  text-align: center;
-  padding: 16px;
+  max-width: 650px;
 `;
 
 export default ({data}) => {
@@ -40,10 +33,7 @@ export default ({data}) => {
       <Head />
       <Header />
       <Wrapper>
-        <Intro>
-          VietBible là chương trình giúp việc học và nghiên cứu Kinh Thánh bằng
-          tiếng Việt cho mọi người không phân biệt tôn giáo, giáo phái.
-        </Intro>
+        <Intro data={data.intros.edges[0].node.intros} />
         {data.platforms.edges.map(({node: {name, type, version, urls}}) => (
           <Platform name={name} version={version} key={name}>
             {urls.map(({url, description}) => (
@@ -68,6 +58,16 @@ export const query = graphql`
           urls {
             url
             description
+          }
+        }
+      }
+    }
+    intros: allDataYaml {
+      edges {
+        node {
+          intros {
+            id
+            content
           }
         }
       }

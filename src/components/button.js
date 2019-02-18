@@ -11,7 +11,7 @@ const Button = styled.a`
 `;
 
 const Container = styled.div`
-  @media (max-width: 380px) {
+  @media (max-width: 480px) {
     align-self: center;
     margin: 15px 15px;
   }

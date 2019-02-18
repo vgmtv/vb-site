@@ -21,7 +21,7 @@ const DownloadSection = styled.div`
   flex-direction: row;
   margin-top: 4px;
 
-  @media (max-width: 380px) {
+  @media (max-width: 480px) {
     flex-direction: column;
   }
 `;
