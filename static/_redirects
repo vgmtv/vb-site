@@ -1,5 +1,6 @@
 # Redirect domain aliases to primary domain
 https://vietbible100.com/* https://vietbible.cloud/:splat 301!
+https://beta.vietbible100.com/* https://vietbible.cloud/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://vietbible.netlify.com/* https://vietbible.cloud/:splat 301!
