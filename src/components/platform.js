@@ -14,9 +14,9 @@ const PlatformName = styled.span`
   color: grey;
 `
 
-export default ({children, name}) => (
+export default ({children, name, version}) => (
   <Container>
-    <PlatformName>{name}</PlatformName>
+    <PlatformName>{name} v{version}</PlatformName>
     {children}
   </Container>
 )

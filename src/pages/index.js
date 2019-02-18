@@ -11,7 +11,7 @@ import '../css/global.css';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -22,8 +22,11 @@ const Container = styled.div`
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-self: center;
+  justify-content: center;
   max-width: 700px;
+  overflow-x: scroll;
+  flex: 1;
+  height: '100%';
 `;
 
 const DownloadSection = styled.div`
@@ -45,7 +48,7 @@ export default ({data}) => {
       <Header />
       <Wrapper>
         {data.platforms.edges.map(({node: {name, type, version, urls}}) => (
-          <Platform name={name} key={name}>
+          <Platform name={name} version={version} key={name}>
             <DownloadSection>
               {urls.map(({url, description}) => (
                 <Button
@@ -58,7 +61,6 @@ export default ({data}) => {
           </Platform>
         ))}
       </Wrapper>
-      <div style={{flex: 1, backgroundColor: '#fff'}} />
       <Footer />
     </Container>
   );

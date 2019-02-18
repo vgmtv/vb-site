@@ -7,6 +7,8 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   color: #fff;
+  width: 100%;
+  background-color: rgb(50, 171, 223);
 `;
 
 const MainHeader = styled.h1`
@@ -23,6 +25,6 @@ const SubHeader = styled.span`
 export default () => (
   <Container>
     <MainHeader>VietBible</MainHeader>
-    <SubHeader>Ứng dụng nghiên cứu Kinh Thánh cho người Việt</SubHeader>
+    <SubHeader>Ứng dụng nghiên cứu Kinh Thánh tiếng Việt</SubHeader>
   </Container>
 );
