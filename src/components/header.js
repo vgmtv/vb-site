@@ -1,0 +1,28 @@
+import React from 'react';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+`;
+
+const MainHeader = styled.h1`
+  padding: 0;
+  margin: 0.5em;
+  margin-bottom: 0;
+`
+
+const SubHeader = styled.span`
+  font-size: 0.9em;
+  padding: 1.2em;
+`;
+
+export default () => (
+  <Container>
+    <MainHeader>VietBible</MainHeader>
+    <SubHeader>Ứng dụng nghiên cứu Kinh Thánh cho người Việt</SubHeader>
+  </Container>
+);
