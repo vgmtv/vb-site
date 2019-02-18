@@ -66,7 +66,7 @@ export default ({data}) => {
 
 export const query = graphql`
   query platforms {
-    platforms: allPlatformsYaml {
+    platforms: allPlatformsYaml(sort: {order: ASC, fields: order}) {
       edges {
         node {
           name
