@@ -23,17 +23,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 700px;
-  overflow-x: scroll;
-  flex: 1;
-  height: '100%';
-`;
-
-const DownloadSection = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  max-width: 650px;;
 `;
 
 const Intro = styled.div`
@@ -45,32 +35,20 @@ const Intro = styled.div`
 `;
 
 export default ({data}) => {
-  const download = url => {
-    if (url) {
-      window.open(url, '_blank');
-    }
-  };
-
   return (
     <Container>
       <Head />
       <Header />
-      <Intro>
-        VietBible là chương trình giúp việc học và nghiên cứu Kinh Thánh bằng
-        tiếng Việt cho mọi người không phân biệt tôn giáo, giáo phái.
-      </Intro>
       <Wrapper>
+        <Intro>
+          VietBible là chương trình giúp việc học và nghiên cứu Kinh Thánh bằng
+          tiếng Việt cho mọi người không phân biệt tôn giáo, giáo phái.
+        </Intro>
         {data.platforms.edges.map(({node: {name, type, version, urls}}) => (
           <Platform name={name} version={version} key={name}>
-            <DownloadSection>
-              {urls.map(({url, description}) => (
-                <Button
-                  key={description}
-                  title={description}
-                  onPress={() => download(url)}
-                />
-              ))}
-            </DownloadSection>
+            {urls.map(({url, description}) => (
+              <Button key={description} title={description} link={url} />
+            ))}
           </Platform>
         ))}
       </Wrapper>

@@ -6,7 +6,8 @@ const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 7px;
+  padding: 8px;
+  margin-top: 24px;
 `;
 
 const CopyRight = styled.span`

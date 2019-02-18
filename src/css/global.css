@@ -4,10 +4,9 @@ body {
   padding: 0;
   font-family: 'Quicksand', sans-serif;
   background-color: rgb(36, 43, 55);
-  height: 100vh;
+  height: 100%;
 }
 
 #___gatsby > * {
-  height: 100vh;
-  min-height: 100vh;
+  height: 100%;
 }
