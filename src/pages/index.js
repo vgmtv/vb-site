@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Head from '../components/head';
 import Footer from '../components/footer';
 import Header from '../components/header';
-import Platform from '../components/Platform';
+import Platform from '../components/platform';
 import Button from '../components/button';
 import '../css/global.css';
 
@@ -63,3 +63,4 @@ export default () => {
     </Container>
   );
 };
+
