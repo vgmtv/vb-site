@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {graphql} from 'gatsby';
 import Head from '../components/head';
 import Footer from '../components/footer';
 import Header from '../components/header';
@@ -32,31 +33,30 @@ const DownloadSection = styled.div`
   align-items: center;
 `;
 
-export default () => {
-  const download = () => {
-    window.open('https://vgm.tv')
-  }
+export default ({data}) => {
+  const download = url => {
+    if (url) {
+      window.open(url, '_blank');
+    }
+  };
   return (
     <Container>
       <Head />
       <Header />
       <Wrapper>
-        <Platform name="Windows">
-          <DownloadSection>
-            <Button title="Tải Về (32-bit)" onPress={download} />
-            <Button title="Tải Về (64-bit)" />
-          </DownloadSection>
-        </Platform>
-        <Platform name="MacOS">
-          <DownloadSection>
-            <Button title="Tải Về (App Store)" onPress={download} />
-          </DownloadSection>
-        </Platform>
-        <Platform name="Android">
-          <DownloadSection>
-            <Button title="Tải Về (Google Play)" onPress={download} />
-          </DownloadSection>
-        </Platform>
+        {data.platforms.edges.map(({node: {name, type, version, urls}}) => (
+          <Platform name={name} key={name}>
+            <DownloadSection>
+              {urls.map(({url, description}) => (
+                <Button
+                  key={description}
+                  title={description}
+                  onPress={() => download(url)}
+                />
+              ))}
+            </DownloadSection>
+          </Platform>
+        ))}
       </Wrapper>
       <div style={{flex: 1, backgroundColor: '#fff'}} />
       <Footer />
@@ -64,3 +64,20 @@ export default () => {
   );
 };
 
+export const query = graphql`
+  query platforms {
+    platforms: allPlatformsYaml {
+      edges {
+        node {
+          name
+          type
+          version
+          urls {
+            url
+            description
+          }
+        }
+      }
+    }
+  }
+`;

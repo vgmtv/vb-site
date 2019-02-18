@@ -1,0 +1,8 @@
+name: Windows
+type: desktop
+version: 3.2.0
+urls:
+  - url: https://cloudflare-ipfs.com/ipfs/QmcKpEcAniEYuYP41FCYW6smYnZMjomJcijcH84SqC42DJ/SetupVietBible3.2x64.exe
+    description: "64-Bit"
+  - url: https://cloudflare-ipfs.com/ipfs/QmcKpEcAniEYuYP41FCYW6smYnZMjomJcijcH84SqC42DJ/SetupVietBible3.2x86.exe
+    description: "32-Bit"

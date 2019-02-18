@@ -29,6 +29,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
-    "gatsby-source-filesystem": "2.0.20"
+    "gatsby-source-filesystem": "2.0.20",
+    "gatsby-transformer-yaml": "2.1.8"
   }
 }

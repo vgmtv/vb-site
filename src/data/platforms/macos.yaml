@@ -1,0 +1,6 @@
+name: MacOS
+type: desktop
+version: 1.2.6
+urls:
+  - url: https://itunes.apple.com/vn/app/vietbible/id1325634371
+    description: "Mac App Store"

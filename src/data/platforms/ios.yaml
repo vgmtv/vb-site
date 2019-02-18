@@ -1,0 +1,6 @@
+name: iOS
+type: mobile
+version: 1.2.0
+urls:
+  - url: https://itunes.apple.com/vn/app/vietbible/id1016761151
+    description: "iOS App Store"

@@ -16,7 +16,7 @@ const PlatformName = styled.span`
 
 export default ({children, name}) => (
   <Container>
-    <PlatformName>Hệ điều hành: {name}</PlatformName>
+    <PlatformName>{name}</PlatformName>
     {children}
   </Container>
 )
