@@ -3,7 +3,7 @@ name: Windows
 type: desktop
 version: 3.2.0
 urls:
-  - url: https://ipfs.io/ipfs/QmcKpEcAniEYuYP41FCYW6smYnZMjomJcijcH84SqC42DJ/SetupVietBible3.2x64.exe
+  - url: https://ipfs.io/ipfs/Qmf799x2Zf99nCq32ZaXDDvmmrXEuwdnYCKzK1Trq3W31F/SetupVietBible3.2x64.exe
     description: "64-Bit"
-  - url: https://ipfs.io/ipfs/QmcKpEcAniEYuYP41FCYW6smYnZMjomJcijcH84SqC42DJ/SetupVietBible3.2x86.exe
+  - url: https://ipfs.io/ipfs/Qmf799x2Zf99nCq32ZaXDDvmmrXEuwdnYCKzK1Trq3W31F/SetupVietBible3.2x86.exe
     description: "32-Bit"
