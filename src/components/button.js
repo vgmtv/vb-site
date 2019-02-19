@@ -1,21 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-
-const Button = styled.a`
-  margin: 5px;
-  padding: 10px;
-  color: #000;
-  background-color: #ccc;
-  border-radius: 20px;
-  text-decoration: none;
-`;
+import {OutboundLink} from 'gatsby-plugin-google-analytics';
 
 const Container = styled.div`
   @media (max-width: 480px) {
     align-self: center;
     margin: 15px 15px;
   }
-  &:hover ${Button} {
+  &:hover a {
     background-color: #222;
     color: #fff;
     cursor: pointer;
@@ -24,6 +16,18 @@ const Container = styled.div`
 
 export default ({title, link}) => (
   <Container>
-    <Button target="new" href={link}>{title}</Button>
+    <OutboundLink
+      style={{
+        margin: '5px',
+        padding: '10px',
+        color: '#000',
+        backgroundColor: '#ccc',
+        borderRadius: '20px',
+        textDecoration: 'none',
+      }}
+      target="new"
+      href={link}>
+      {title}
+    </OutboundLink>
   </Container>
 );

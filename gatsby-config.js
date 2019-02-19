@@ -8,5 +8,16 @@ module.exports = {
         path: `./content/data/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-134744464-1",
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+      },
+    },
   ],
 };
