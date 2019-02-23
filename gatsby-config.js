@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `VietBible - Ứng dụng nghiên cứu Kinh Thánh cho người Việt`,
+    title: `VietBible - Chương trình nghiên cứu Kinh Thánh cho người Việt`,
     siteUrl: `https://vietbible.cloud`,
-    description: `Ứng dụng nghiên cứu Kinh Thánh tiếng Việt`,
+    description: `Chương trình nghiên cứu Kinh Thánh tiếng Việt`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
