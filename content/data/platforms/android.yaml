@@ -6,6 +6,6 @@ urls:
   - url: https://ipfs.io/ipfs/Qmf799x2Zf99nCq32ZaXDDvmmrXEuwdnYCKzK1Trq3W31F/VietBibleFullx86.apk
     description: "APK Full (x86)"
   - url: https://ipfs.io/ipfs/Qmf799x2Zf99nCq32ZaXDDvmmrXEuwdnYCKzK1Trq3W31F/VietBibleFullArm.apk
-  description: "APK Full (ARM)"
+    description: "APK Full (ARM)"
   - url: https://play.google.com/store/apps/details?id=com.vietbible.kinhthanh
     description: "Google Play"
