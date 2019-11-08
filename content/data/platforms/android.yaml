@@ -3,9 +3,9 @@ name: Android
 type: mobile
 version: 1.0.2
 urls:
-  - url: https://gateway.hjm.bid/ipfs/QmV5ekg2xW4wbcXrxZxNx8DaemNTPR22LZHSXvXrZRYzkX
+  - url: https://gateway.hjm.bid/ipfs/Qme9uk5eTJaM6Ykd2fuJDpw3x3DJdJThWKBk58rGqaVmri/VBx86_261115.apk
     description: "APK Full (x86)"
-  - url: https://gateway.hjm.bid/ipfs/QmSioACUitxFb6MBzKEkztqQ8swCYV4p6sKz7TvBT1an3Q
+  - url: https://gateway.hjm.bid/ipfs/Qme9uk5eTJaM6Ykd2fuJDpw3x3DJdJThWKBk58rGqaVmri/VBarm_261115.apk
     description: "APK Full (ARM)"
   - url: https://play.google.com/store/apps/details?id=com.vietbible.kinhthanh
     description: "Google Play"
