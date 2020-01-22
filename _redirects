@@ -1,0 +1,9 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://vietbible100.com/* https://viet.bible/:splat 301!
+https://beta.vietbible100.com/* https://viet.bible/:splat 301!
+https://vietbible.cloud/* https://viet.bible/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://vietbible.netlify.com/* https://viet.bible/:splat 301!
