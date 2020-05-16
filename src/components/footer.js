@@ -18,7 +18,7 @@ export default () => {
   const now = new Date();
   return (
     <Container>
-      <CopyRight>&copy; VietBible 2009-{now.getFullYear()}</CopyRight>
+      <CopyRight>&copy; VietBible 1998-{now.getFullYear()}</CopyRight>
     </Container>
   );
 };
