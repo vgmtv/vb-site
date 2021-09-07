@@ -1,9 +1,7 @@
-order: 1
-name: MacOS
+order: 3
+name: MacOS Store
 type: desktop
-version: 1.0.0
+version: 1.2.6
 urls:
-  - url: https://link.ap1.storjshare.io/juyaxst4kjce64z3d7oxbp57bkka/vietbible%2Frelease%2Fviet.bible%2FSetupVietBibleBetaOfflineMac0709.zip
-    description: "Viet.Bible Offline (DMG)"
   - url: https://itunes.apple.com/vn/app/vietbible/id1325634371
     description: "Mac App Store"

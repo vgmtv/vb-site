@@ -1,11 +1,11 @@
-order: 3
+order: 5
 name: Android
 type: mobile
 version: 1.0.2
 urls:
-  - url: https://link.ap1.storjshare.io/jxd4fsn422m7vs7hsfjbiziksjfa/vietbible%2Frelease%2Fvietbible%2Fandroid%2FVBx86_261115_x86.apk
-    description: "APK Full (x86)"
   - url: https://link.ap1.storjshare.io/juqb5l7g7mbarohnuyf4vtkci54q/vietbible%2Frelease%2Fvietbible%2Fandroid%2FVBarm_261115_arm.apk
     description: "APK Full (ARM)"
+  - url: https://link.ap1.storjshare.io/jxd4fsn422m7vs7hsfjbiziksjfa/vietbible%2Frelease%2Fvietbible%2Fandroid%2FVBx86_261115_x86.apk
+    description: "APK Full (x86)"
   - url: https://play.google.com/store/apps/details?id=com.vietbible.kinhthanh
     description: "Google Play"

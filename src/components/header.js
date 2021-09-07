@@ -24,7 +24,7 @@ const SubHeader = styled.span`
 
 export default () => (
   <Container>
-    <MainHeader>VietBible</MainHeader>
+    <MainHeader>Viet.Bible</MainHeader>
     <SubHeader>Ứng dụng nghiên cứu Kinh Thánh tiếng Việt</SubHeader>
   </Container>
 );
