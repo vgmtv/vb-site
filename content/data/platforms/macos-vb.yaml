@@ -1,7 +1,7 @@
 order: 1
 name: Viet.Bible MacOS
 type: desktop
-version: 1.0.0-beta
+version: 1.0.1-beta
 urls:
   - url: https://link.ap1.storjshare.io/jv5farvkcblooeb3dceyynckjnea/vietbible%2Frelease%2Fviet.bible%2FSetupVietBibleBetaOfflineMac0809.zip
     description: "App Offline (DMG)"
