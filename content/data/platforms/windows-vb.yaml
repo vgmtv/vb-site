@@ -1,7 +1,7 @@
 order: 0
 name: Viet.Bible Windows
 type: desktop
-version: 1.0.2-beta (14/09/21, Win 10+)
+version: 1.0.2-beta (14/09/21)
 urls:
   - url: https://link.ap1.storjshare.io/jup37cvflfq6ddqrhxxrcdidlhpa/vietbible%2Frelease%2Fviet.bible%2F1409SetupVietBibleBetaOffline.zip
-    description: "Setup Offline (EXE)"
+    description: "Setup Offline (EXE, Win 10+)"
