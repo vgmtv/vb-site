@@ -1,7 +1,7 @@
 order: 5
-name: Android
+name: Viet.Bible Android
 type: mobile
-version: 1.0.2
+version: 1.0.0
 urls:
-  - url: https://link.ap1.storjshare.io/juqb5l7g7mbarohnuyf4vtkci54q/vietbible%2Frelease%2Fvietbible%2Fandroid%2FVBarm_261115_arm.apk
+  - url: https://link.ap1.storjshare.io/jufnufo7sxxr4um5sp766cxj6ejq/vietbible%2Fbin-releases%2Fv1.0.0%2Fvietbible.apk
     description: "APK Đầy Đủ Dữ Liệu"
