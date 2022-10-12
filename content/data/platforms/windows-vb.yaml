@@ -1,7 +1,7 @@
 order: 0
 name: Viet.Bible Windows
 type: desktop
-version: 1.0.5
+version: 1.0.6
 urls:
-  - url: https://link.storjshare.io/jv3s6aciobetlfk7e2da74g6gdea/vietbible%2Fbin-releases%2Fv1.0.5%2FSetupVietBibleWin1.0.5.zip?download=1
+  - url: https://link.storjshare.io/jvcu6zmpx2bs7q3je2cd4o7z76ua/vietbible%2Fbin-releases%2Fv1.0.6%2FSetupVietBibleWin1.0.6.zip?download=1
     description: 'Setup Offline (EXE, Win 10+)'
