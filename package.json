@@ -4,11 +4,11 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
-  "engines" : { 
-    "node" : ">=16.0.0" 
+  "engines": {
+    "node": ">=16.0.0"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
