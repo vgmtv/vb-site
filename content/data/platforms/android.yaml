@@ -3,5 +3,5 @@ name: Viet.Bible Android
 type: mobile
 version: 1.0.5
 urls:
-  - url: https://link.storjshare.io/jw5byf5up652hoviptgzdex67npa/vietbible%2Fbin-releases%2Fv1.0.5%2Fvietbible(1.0.5).apk?download=1
-    description: "APK Đầy Đủ Dữ Liệu"
+  - url: https://github.com/mdds-labs/vb-release/releases/download/v1.0.5/vietbible.1.0.5.apk
+    description: 'APK Đầy Đủ Dữ Liệu'
