@@ -3,7 +3,7 @@ name: Windows
 type: desktop
 version: 3.2.0
 urls:
-  - url: https://link.ap1.storjshare.io/jvfruovkm3aoljgs7bametj5htaq/vietbible%2Frelease%2Fvietbible%2Fwindows%2FSetupVietBible3.2x64.exe
+  - url: https://github.com/mdds-labs/vb-release/releases/download/v3.2/SetupVietBible3.2x64.exe
     description: "64-Bit"
   - url: https://link.ap1.storjshare.io/jxvjqkzzrcqd5woxgeq5dslykb6q/vietbible%2Frelease%2Fvietbible%2Fwindows%2FSetupVietBible3.2x86.exe
     description: "32-Bit"
