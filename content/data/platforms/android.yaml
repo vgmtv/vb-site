@@ -1,7 +1,7 @@
 order: 5
 name: Viet.Bible Android
 type: mobile
-version: 1.0.5
+version: 1.0.6
 urls:
-  - url: https://github.com/mdds-labs/vb-release/releases/download/v1.0.5/vietbible.1.0.5.apk
+  - url: https://github.com/mdds-labs/vb-release/releases/download/v1.0.6/vietbible1.0.6.apk
     description: 'APK Đầy Đủ Dữ Liệu'
