@@ -3,5 +3,5 @@ name: Viet.Bible MacOS
 type: desktop
 version: 2.0.1
 urls:
-  - url: https://github.com/mdds-labs/vb-release/releases/download/v2.0.0/SetupVietBibleMac2.0.1.zip
+  - url: https://drive.google.com/file/d/1HcwpsjywejeCdzePpDW9qEVdJQdOSBvi/view?usp=sharing
     description: 'App Offline (DMG, macOS 10.12+)'
