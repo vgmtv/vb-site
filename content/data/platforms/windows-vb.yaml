@@ -1,7 +1,7 @@
 order: 0
 name: Viet.Bible Windows
 type: desktop
-version: 2.0.1
+version: 2.0.2
 urls:
-  - url: https://github.com/mdds-labs/vb-release/releases/download/v2.0.0/SetupVietBibleWin2.0.1.zip
+  - url: https://github.com/mdds-labs/vb-release/releases/download/v2.0.2/SetupVietBibleWin2.0.2.zip
     description: 'Setup Offline (EXE, Win 10+)'
