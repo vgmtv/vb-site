@@ -1,7 +1,7 @@
 order: 1
 name: Viet.Bible MacOS
 type: desktop
-version: 2.0.3
+version: 2.0.4
 urls:
-  - url: https://github.com/mdds-labs/vb-release/releases/download/v2.0.3/SetupVietBibleMac2.0.3.zip
-    description: 'App Offline (macOS 11.5+)'
+  - url: https://github.com/mdds-labs/vb-release/releases/download/v2.0.4/SetupVietBibleMac2.0.4.zip
+    description: "App Offline (macOS 11.5+)"
