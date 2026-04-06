@@ -1,7 +1,7 @@
 order: 4
 name: iOS
 type: mobile
-version: 1.0.5
+version: 1.0.6
 urls:
   - url: https://apps.apple.com/vn/app/viet-bible/id1582970172
     description: "iOS App Store"
